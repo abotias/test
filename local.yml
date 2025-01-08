@@ -1,5 +1,5 @@
 - name: Install tools
-  #hosts: localhost
+  hosts: localhost
   become: yes
   roles:
     - tools
