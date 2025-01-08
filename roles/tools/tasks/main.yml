@@ -1,0 +1,4 @@
+- name: Install lnav
+  apt:
+    name: lnav
+    state: present
